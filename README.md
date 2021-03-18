@@ -25,7 +25,8 @@ Primeiro fiz a seleção das transações fraudulentas dentro do data frame das 
 #### - Analyze whether or not the fraudulent transactions are somehow associated to other features in the dataset. Explain your results: 
 Primeiro foram feitas diversas seleções utilizando os data frames: `fraud` e `transactions`, com isso utilizando os data frames gerados tentei identificar padrões entre `frauds` e `card_family`, sem sucesso decidi plotar um histograma considerando o `value`, com a vizualição do histograma foi possível verificar uma maior ocorrência de transferências fraudulentas no intervalo de valores entre 30.000 e 40.000. Comparando a quantidade de transferências fraudulentas no intervalo [30.000 - 40.000] com os outros intervalos foi possível determinar que no intervalo [30.000 - 40.000] há aproximadamente duas vezes mais ocorrência de fraudes que nos demais. Segue abaixo a tabela que ilustra as observações relatadas.
 
-   ![Captura de Tela 2021-03-18 às 13 13 08](https://user-images.githubusercontent.com/62664736/111659092-b0e82400-87eb-11eb-8f67-97b0d4b65550.png)
+   ![Captura de Tela 2021-03-18 às 13 33 39](https://user-images.githubusercontent.com/62664736/111662305-8f3c6c00-87ee-11eb-85e6-95b70b74f289.png)
+
  
 
 
