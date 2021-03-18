@@ -1,4 +1,4 @@
-# Desafio-Stone
+# Desafio Stone
 
 ## Ferramentas
 
@@ -6,4 +6,4 @@ Para a resolução desses desafios foi utilizado Python com o auxílio do Jupyte
 
 ## Processo
 
-Para obter os resultados esperados nesse desafio, foi necessário fazer seleções dentro dos data frames fornecidos, gerar resultados estatísticos como médias e máximos e mínimos, plotar e analisar gráficos e apartir disso tirar as conclusões esperadas.
+- **What is the average age of the customers in the database?**: Para responder essa parte do desafio primeiro verifiquei se havia a ocorrência de customers_id repetidos, após isso calculei a média da coluna `age` arredonda o seu valor para duas casas decimais. O resultado da média de idade dos clientes é igual a: 35,06 anos
