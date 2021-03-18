@@ -23,7 +23,9 @@ Através desses métodos foi possivél determinar que o ranque baseado no `credi
 Primeiro fiz a seleção das transações fraudulentas dentro do data frame das transações, para que fosse possível obter o dado `value` para as transações fraudulentas, após isso ordenei o data frame gerado em ordem decrescente em relação ao `value`, para finalizar pedi para que me printasse o o `id` e o `value` do primeiro valor desse data frame obtendo a conclusão: A maior transação fraudulenta, possui o id = CTID20567160 e o valor de = 49155R$
 
 #### Analyze whether or not the fraudulent transactions are somehow associated to other features in the dataset. Explain your results: 
-Primeiro foram feitas diversas seleções utilizando os data frames: `fraud` e `transactions`, com isso utilizando os data frames gerados tentei identificar padrões entre `frauds` e `card_family`, sem sucesso decidi plotar um histograma considerando o `value`, com a vizualição do histograma foi possível verificar uma maior ocorrência de transferências fraudulentas no intervalo de valores entre 30.000 e 40.000. Comparando a quantidade de transferências fraudulentas com![Captura de Tela 2021-03-18 às 13 13 08](https://user-images.githubusercontent.com/62664736/111659092-b0e82400-87eb-11eb-8f67-97b0d4b65550.png)
+Primeiro foram feitas diversas seleções utilizando os data frames: `fraud` e `transactions`, com isso utilizando os data frames gerados tentei identificar padrões entre `frauds` e `card_family`, sem sucesso decidi plotar um histograma considerando o `value`, com a vizualição do histograma foi possível verificar uma maior ocorrência de transferências fraudulentas no intervalo de valores entre 30.000 e 40.000. Comparando a quantidade de transferências fraudulentas com
+
+[Captura de Tela 2021-03-18 às 13 13 08](https://user-images.githubusercontent.com/62664736/111659092-b0e82400-87eb-11eb-8f67-97b0d4b65550.png)
  
 
 
