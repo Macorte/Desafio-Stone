@@ -7,7 +7,7 @@ Para a resolução desses desafios foi utilizado Python com o auxílio do Jupyte
 ## Processo
 
 #### - What is the average age of the customers in the database?:
-Primeiro verifiquei se havia a ocorrência de `customers_id` repetidos, após isso calculei a média da coluna `age` arredonda o seu valor para duas casas decimais. Obtendo o resultado da média de idade dos clientes igual a: 35,06 anos
+Primeiro verifiquei se havia a ocorrência de `customers_id` repetidos, após isso calculei a média da coluna `age` arredonda o seu valor para duas casas decimais. Obtendo o resultado da média de idade dos clientes igual a: 35,06 ≅ 35 anos
 
 #### - How is the `card_family` ranked based on the `credit_limit` given to each card?:
 Primeiro verifiquei se havia a ocorrência de `card_number` repetidos, após isso verifiquei os tipos de `card_family` existentes, o próximo passo foi separá-lo em grupos de acordo com sua `card_family` e verificar seus máximos e mínimos, para finalizar plotei boxplot para cada `card_family` para identificar outliers. 
